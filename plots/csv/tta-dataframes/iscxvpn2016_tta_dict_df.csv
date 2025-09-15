@@ -1,0 +1,2 @@
+dataset,best_f1_score,best_f1_score_iteration,average_iteration_time,average_black_box_time,average_optimizer_time,average_fetch_time,tta,average_tofino_model_time,average_tcam_rulegen_time
+D3,0.82,35,54.34,10.87,43.47,0.01,2011,4.312384796142578e-05,0.91
