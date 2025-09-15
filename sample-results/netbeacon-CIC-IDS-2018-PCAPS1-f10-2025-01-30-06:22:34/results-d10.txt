@@ -1,0 +1,1 @@
+Max Depth = 10, Feature Limit = 1, Total Features = 1, Number of Phases = 7, F1 Score = 0.77, Feature Table Entries = 250, Tree Table Entries = 31, Number of flows = 983040, Partition Sizes = 10, Resubmission Traffic = 0, Model Features = ['Packet Length Max']

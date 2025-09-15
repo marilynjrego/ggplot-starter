@@ -1,0 +1,98 @@
+{
+    "application_name": "CIC-IOT-2023-32-PCAPS1-f10",
+    "hypermapper_mode": {
+        "mode": "client-server"
+    },
+    "design_of_experiment": {
+        "doe_type": "random sampling",
+        "number_of_samples": 200
+    },
+    "output_data_file": "/home/annuszulfiqar/research/NetEye/dt-framework/results/hypermapper-bayesian_optimization-CIC-IOT-2023-32-PCAPS1-f10-2024-12-10-22:51:39/output_samples.csv",
+    "log_file": "/home/annuszulfiqar/research/NetEye/dt-framework/results/hypermapper-bayesian_optimization-CIC-IOT-2023-32-PCAPS1-f10-2024-12-10-22:51:39/hypermapper_log.log",
+    "input_parameters": {
+        "depth": {
+            "parameter_type": "integer",
+            "values": [
+                5,
+                9
+            ]
+        },
+        "features_per_partition": {
+            "parameter_type": "ordinal",
+            "values": [
+                2,
+                3,
+                4
+            ]
+        },
+        "c1": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "c2": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "c3": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "c4": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "c5": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        },
+        "c6": {
+            "parameter_type": "ordinal",
+            "values": [
+                0.0,
+                0.2,
+                0.4,
+                0.6,
+                0.8
+            ]
+        }
+    },
+    "optimization_objectives": [
+        "f1_score",
+        "num_flows"
+    ],
+    "optimization_iterations": 500,
+    "evaluations_per_optimization_iteration": 10,
+    "optimization_method": "bayesian_optimization",
+    "acquisition_function": "EI",
+    "scalarization_method": "tchebyshev"
+}

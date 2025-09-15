@@ -1,0 +1,1 @@
+Max Depth = 13, Feature Limit = 2, Total Features = 2, Number of Partitions = 1, F1 Score = 0.5, Feature Table Entries = 3352, Tree Table Entries = 14, Number of flows = 983040, Partition Sizes = 13, Resubmission Traffic = 0, Model Features = ['Fwd Seg Size Min', 'Flow IAT Max']

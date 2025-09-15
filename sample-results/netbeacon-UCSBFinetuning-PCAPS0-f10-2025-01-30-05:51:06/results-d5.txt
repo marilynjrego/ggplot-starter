@@ -1,0 +1,1 @@
+Max Depth = 5, Feature Limit = 2, Total Features = 2, Number of Phases = 7, F1 Score = 0, Feature Table Entries = 185, Tree Table Entries = 78, Number of flows = 786432, Partition Sizes = 5, Resubmission Traffic = 0, Model Features = ['Fwd Header Length', 'PSH Flag Count']
